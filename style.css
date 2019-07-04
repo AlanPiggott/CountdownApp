@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Creating two rows*/
+.col-container {
+    display: flex;
+    flex-direction: row;
+}
+/*Center image and use flex to create equal rows*/
+.col1 {
+    flex: 1;
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col1 h1 {
+    text-align: center;
+    margin-top: 15%;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+/*Countdown styling*/
+
+.timer {
+    text-align: center;
+    margin: 50px;
+}
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+li span {
+    display: block;
+    font-size: 2.5rem;
+    color: white;
+}
